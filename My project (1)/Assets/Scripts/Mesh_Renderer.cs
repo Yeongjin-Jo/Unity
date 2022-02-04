@@ -14,7 +14,6 @@ public class Test3 : MonoBehaviour
     {
         mesh = GetComponent<MeshRenderer>(); // 메쉬 렌더러 컴포넌트를 받아와서 mesh에 할당
     }
-
     // Update is called once per frame
     void Update()
     {

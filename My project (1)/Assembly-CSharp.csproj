@@ -37,9 +37,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\RigidBody.cs" />
+     <Compile Include="Assets\Scripts\Light_Unity.cs" />
      <Compile Include="Assets\Scripts\Transform.cs" />
-     <Compile Include="Assets\Scripts\Collider.cs" />
+     <Compile Include="Assets\Scripts\Camera_Unity.cs" />
      <Compile Include="Assets\Scripts\Mesh_Renderer.cs" />
+     <Compile Include="Assets\Scripts\Collider.cs" />
+     <Compile Include="Assets\Scripts\Animation_Unity.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
