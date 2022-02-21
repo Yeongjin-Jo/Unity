@@ -15,11 +15,11 @@ C:/Users/Administrator/Desktop/Git/Unity_First/Part 22 - Skybox
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-5679
+1139
 Successfully changed project path to: C:/Users/Administrator/Desktop/Git/Unity_First/Part 22 - Skybox
 C:/Users/Administrator/Desktop/Git/Unity_First/Part 22 - Skybox
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003057 seconds.
+Registered in 0.003438 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 29.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.544 seconds
+- Completed reload, in  0.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (544ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (680ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (404ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (151ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (142ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (206ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (30ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007429 seconds.
+Registered in 0.008243 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.933 seconds
+- Completed reload, in  1.017 seconds
 Domain Reload Profiling:
-	ReloadAssembly (934ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1018ms)
+		BeginReloadAssembly (160ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (729ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (786ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (261ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (276ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (307ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.5 MB.
 System memory in use after: 67.6 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 2.931600 ms (FindLiveObjects: 0.181800 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.628600 ms  DeleteObjects: 0.059300 ms)
+Total: 2.789700 ms (FindLiveObjects: 0.152200 ms CreateObjectMapping: 0.035900 ms MarkObjects: 2.537500 ms  DeleteObjects: 0.062700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,25 +131,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.008554 seconds 
-  Import took 0.010987 seconds .
+  path: Assets/Skybox
+  artifactKey: Guid(b12bd712966bf584eb27ebfa8c888cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox using Guid(b12bd712966bf584eb27ebfa8c888cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2faf171ebd6500188a820f2f4108df40') in 0.009577 seconds 
+  Import took 0.013021 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.327934 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(215323c9f96ffef4dbcc4cb2f5e7045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(215323c9f96ffef4dbcc4cb2f5e7045b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9488901163c009cc85e405072c72698b') in 0.008768 seconds 
-  Import took 0.011234 seconds .
+  Time since last request: 39.083043 seconds.
+  path: Assets/Skybox/SkyBox_BlueSky.png
+  artifactKey: Guid(2d03c65bdc3cf5d4a942ad1a718e021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/SkyBox_BlueSky.png using Guid(2d03c65bdc3cf5d4a942ad1a718e021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b941d8bb9a07cbe6361ce3d834b5a12') in 0.072117 seconds 
+  Import took 0.074890 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.055903 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(1e1c7589864b0c44386e494b7db35a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(1e1c7589864b0c44386e494b7db35a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72b8e686231583d3c46a87f7a0328d3') in 0.008244 seconds 
-  Import took 0.011469 seconds .
+  Time since last request: 119.544458 seconds.
+  path: Assets/Skybox/SkyBox_BlueSky.png
+  artifactKey: Guid(2d03c65bdc3cf5d4a942ad1a718e021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/SkyBox_BlueSky.png using Guid(2d03c65bdc3cf5d4a942ad1a718e021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850ad9fec058aefd2c2851687ab4fa9a') in 0.074251 seconds 
+  Import took 0.076724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.664219 seconds.
+  path: Assets/Skybox/Skybox.mat
+  artifactKey: Guid(bc754e93256563d4b923ad7c5fd9e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Skybox.mat using Guid(bc754e93256563d4b923ad7c5fd9e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e4ee24eff30de7757a611f00d94b01') in 0.045396 seconds 
+  Import took 0.047931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.545705 seconds.
+  path: Assets/Skybox/Skybox.mat
+  artifactKey: Guid(bc754e93256563d4b923ad7c5fd9e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Skybox.mat using Guid(bc754e93256563d4b923ad7c5fd9e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385d07d7d9bc99f0b999e958f5ffa22c') in 0.022471 seconds 
+  Import took 0.025198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 613.392495 seconds.
+  path: Assets/Skybox/Skybox.mat
+  artifactKey: Guid(bc754e93256563d4b923ad7c5fd9e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/Skybox.mat using Guid(bc754e93256563d4b923ad7c5fd9e4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e78db36652afb8d717ac6a37ae74a4') in 0.022900 seconds 
+  Import took 0.025458 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
