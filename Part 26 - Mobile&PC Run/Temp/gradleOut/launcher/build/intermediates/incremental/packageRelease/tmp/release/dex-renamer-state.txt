@@ -1,4 +1,0 @@
-#Mon Feb 21 15:41:59 KST 2022
-base.0=C\:\\Users\\Administrator\\Desktop\\Git\\Unity_First\\Part 26 - Mobile&PC Run\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
