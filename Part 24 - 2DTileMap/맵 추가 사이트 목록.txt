@@ -1,0 +1,7 @@
+<내부 플러그인>
+https://github.com/Unity-Technologies/2d-extras
+-> 움직이는 타일셋이라던지 다양한 맵을 구현할 수 있는 기능 제공
+
+<외부 플러그인>
+https://www.mapeditor.org/
+-> 맵과 콜라이더를 여기서 만들고 유니티에서는 적용만 하면 됨
